@@ -15,7 +15,7 @@ read_eip:
     push %rbp
     movq %rsp, %rbp
     lea (%rip), %rax
-    // %rax register points to the value of %roip
+    // %rax register points to the value of %rip
     // %rip can't be mov'd because is RDONLY                
     pop %rbp
     retq
